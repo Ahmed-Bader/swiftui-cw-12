@@ -12,6 +12,7 @@
 		3BD56CFA25A76DEA007130E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD56CF925A76DEA007130E1 /* Assets.xcassets */; };
 		3BD56CFD25A76DEA007130E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD56CFC25A76DEA007130E1 /* Preview Assets.xcassets */; };
 		3BD56D0625A76E97007130E1 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD56D0525A76E97007130E1 /* SecondPage.swift */; };
+		3BD56D0925A77A51007130E1 /* Env.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD56D0825A77A51007130E1 /* Env.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3BD56CFC25A76DEA007130E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3BD56CFE25A76DEA007130E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BD56D0525A76E97007130E1 /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		3BD56D0825A77A51007130E1 /* Env.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Env.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				3BD56CF525A76DE9007130E1 /* CW_12App.swift */,
 				3BD56CF725A76DE9007130E1 /* ContentView.swift */,
+				3BD56D0825A77A51007130E1 /* Env.swift */,
 				3BD56D0525A76E97007130E1 /* SecondPage.swift */,
 				3BD56CF925A76DEA007130E1 /* Assets.xcassets */,
 				3BD56CFE25A76DEA007130E1 /* Info.plist */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BD56CF825A76DE9007130E1 /* ContentView.swift in Sources */,
+				3BD56D0925A77A51007130E1 /* Env.swift in Sources */,
 				3BD56CF625A76DE9007130E1 /* CW_12App.swift in Sources */,
 				3BD56D0625A76E97007130E1 /* SecondPage.swift in Sources */,
 			);

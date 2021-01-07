@@ -8,17 +8,15 @@
 import SwiftUI
 
 struct SecondPage: View {
-    @Binding var name : String
-    @Binding var age : String
-    @Binding var phone : String
+    @ObservedObject var env : Env
     @Environment(\.presentationMode) var presentation
     
     var body: some View {
         VStack (alignment: .center, spacing: 40)
         {
-            TextField("الاسم", text: $name)
-            TextField("العمر", text: $age)
-            TextField("الهاتف", text: $phone)
+            TextField("الاسم", text: $env.name)
+            TextField("العمر", text: $env.age)
+            TextField("الهاتف", text: $env.phone)
         }.padding()
         .font(.title)
         .multilineTextAlignment(.trailing)
@@ -36,8 +34,9 @@ struct SecondPage: View {
     }
 }
 
-//struct SecondPage_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SecondPage()
-//    }
-//}
+/*this here is just for seeing what ur doing doing == example view, comment out or delete when u don't want it anymore
+struct SecondPage_Previews: PreviewProvider {
+    static var previews: some View {
+        SecondPage()
+    }
+} */
